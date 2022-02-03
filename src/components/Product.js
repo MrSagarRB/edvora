@@ -20,18 +20,18 @@ function Product() {
                           src={items.image}
                           alt=""
                         />
-                        <p>Location</p>
+                        <p>{items.address.state}</p>
                       </div>
         
                       <div class="pl-5 space-y-2 text-neutral-100">
-                        <h1>Product Name</h1>
-                        <h2>Brand Name</h2>
-                        <p>Price</p>
-                        <p className="text-sm">Date: 10:12:2021</p>
+                        <h1>{items.product_name}</h1>
+                        <h2>{items.brand_name}</h2>
+                        <p>{items.price}</p>
+                        <p className="text-sm">Date: {items.date}</p>
                       </div>
                     </div>
                   </div>
-                  <h1 class="pt-4 text-gray-400">Description of the Product/Item</h1>
+                  <h1 class="pt-4 text-gray-400">{items.discription}</h1>
                 </div>
 
                  )
