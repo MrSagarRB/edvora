@@ -1,7 +1,7 @@
 <h1>  Edvora Assingmet Solution  </h1>
 <h3>
 live Site Demo- 
-https://edvora-llz7u69l8-mrsagarrb.vercel.app/
+https://edvora-one.vercel.app/
 
 
 </h3>
