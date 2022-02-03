@@ -11,7 +11,7 @@ function Product() {
            {
               Data.map((items)=>{
                  return(
-                  <div class="bg-gray-700 p-2 rounded-sm m-3 w-56">
+                  <div class="bg-gray-700 p-2 rounded-sm m-3 w-64 ">
                   <div>
                     <div class="flex">
                       <div class="space-y-4 text-neutral-100">
@@ -23,11 +23,11 @@ function Product() {
                         <p>{items.address.state}</p>
                       </div>
         
-                      <div class="pl-5 space-y-2 text-neutral-100">
+                      <div class="pl-2 space-y-2 text-neutral-100">
                         <h1>{items.product_name}</h1>
                         <h2>{items.brand_name}</h2>
-                        <p>{items.price}</p>
-                        <p className="text-sm">Date: {items.date}</p>
+                        <p>Rs {items.price}</p>
+                        <p className="text-xs">Date: {items.date}</p>
                       </div>
                     </div>
                   </div>
